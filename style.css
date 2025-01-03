@@ -1,0 +1,207 @@
+/* h2 {
+  color: blueviolet;
+}
+
+p {
+  color: darkcyan;
+}
+li {
+  color: aquamarine;
+}
+
+.desc_res {
+  color: cornflowerblue;
+}
+
+#top {
+  color: cadetblue;
+  font-size: 50px;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px 4px red;
+  font-family: cursive;
+  font-weight: bolder;
+} */
+
+/* div {
+  background-color: blueviolet;
+  background-image: url(./Mutlimedia/favicon.ico), url(./Mutlimedia/logo.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: auto;
+  background-attachment: scroll;
+} */
+
+/* #outer {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+} */
+
+/* #inner {
+  width: 40%;
+  height: 40%;
+  background-color: aqua;
+  border: 2px dashed blue;
+  border-radius: 20px/30px;
+
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+}  */
+
+/* #div1 {
+  width: 400px;
+  height: 100px;
+  background-color: cyan;
+  border: 2px #000000 solid;
+  padding: 20px;
+  box-sizing: content-box;
+  margin: 0px 0px 10px;
+  margin-bottom: 20px;
+  margin: auto;
+} */
+
+/* #div2 {
+  width: 400px;
+  height: 100px;
+  background-color: blueviolet;
+  margin-top: 20px;
+  border: 2px #000000 solid;
+  padding: 20px;
+  box-sizing: border-box;
+} */
+
+/* #div1 {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  display: inline-block;
+  margin-right: -4px;
+}
+#div2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+}
+span {
+  display: block;
+}
+#para1 {
+  display: inline-block;
+  width: 45%;
+}
+#para2 {
+  display: inline-block;
+  width: 45%;
+  margin-left: 20px;
+  vertical-align: top;
+  min-width: 190px;
+}
+
+ .list1 {
+  list-style-type: armenian;
+  list-style-image: url(./Mutlimedia/favicon.ico);
+  list-style-position: inside; 
+  list-style: circle inside;
+}  */
+
+table,
+th,
+td {
+  border: 2px solid blue;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  background-color: bisque;
+  text-align: center;
+}
+th {
+  height: 40px;
+}
+
+header > a {
+  outline: 1px solid red;
+  background-color: aquamarine;
+  padding: 5px;
+  text-decoration: none;
+  cursor: default;
+  margin-right: 10px;
+}
+
+h2 ~ p {
+  background-color: aquamarine;
+}
+
+a[title] {
+  font-weight: bold;
+}
+
+a[href*="act"] {
+  background-color: bisque;
+}
+
+a[href^="https"] {
+  color: brown;
+}
+
+a[href$=".com"] {
+  color: chartreuse;
+}
+
+a[href^="https"][href$="codingninjas/"] {
+  background-color: aqua;
+}
+
+li:nth-child(even) {
+  border: 1px solid black;
+}
+
+p:active {
+  color: green;
+}
+
+input:active {
+  background-color: chartreuse;
+}
+
+a:link {
+  color: black;
+}
+
+h2:hover {
+  color: cadetblue;
+}
+
+input:invalid {
+  background-color: pink;
+  border: 1px solid red;
+}
+
+h2::after {
+  content: " ⟫ ";
+}
+
+a::after {
+  content: "(" attr(href) ")";
+}
+
+p::first-letter {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.size {
+  font-size: 25px;
+}
+
+.input-color {
+  color: brown;
+}

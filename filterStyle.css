@@ -1,0 +1,16 @@
+#outer {
+    background: #add8e6 url("./Mutlimedia/bg.jpg") no-repeat center;
+    /* filter: invert(100%); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+  }
+  #inner {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: sepia(80%);
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+  }

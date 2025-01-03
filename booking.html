@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking form</title>
+    <link rel="Stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Schedule Your Holiday on Paradise Island</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="fullname" required />
+        <br /><br />
+
+        <label for="mail">Email:</label>
+        <input
+          type="email"
+          id="mail"
+          name="email"
+          placeholder="abc@gmail.com"
+          required
+        />
+        <br /><br />
+
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+91-894746543"
+          required
+        />
+        <br /><br />
+
+        <label for="dob">Date of Birth:</label>
+        <input
+          type="date"
+          id="dob"
+          name="dob"
+          min="2021-01-01"
+          max="2025-12-01"
+          required
+        />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Trip Details</legend>
+        <label for="arr">Arrival:</label>
+        <input type="datetime-local" id="arr" name="arrival" required />
+        <br /><br />
+
+        <label for="dep">Departure:</label>
+        <input type="datetime-local" id="dep" name="departure" required />
+        <br /><br />
+        <!-- Number of Travelers- Number -->
+        <label for="travelers">No. of Travellers:</label>
+        <input type="number" id="travelers" name="traveler" />
+        <br /><br />
+        <!-- Accomodation preference - Select -->
+        <label for="pref">Accomodation Preferences</label>
+        <select id="pref" name="accomodation">
+          <optgroup label="Hotels">
+            <option value="3-star">3-star</option>
+            <option value="4-star">4-star</option>
+            <option value="5-star">5-star</option>
+          </optgroup>
+          <option value="resort">Resort</option>
+          <option value="guesthouse">Guest House</option>
+          <option value="villa" selected>Villa</option>
+        </select>
+
+        <br /><br />
+        <!-- Preferred Activities - Checkbox -->
+        <fieldset>
+          <legend>Preferred Activities:</legend>
+          <input
+            type="checkbox"
+            id="Snorkelling"
+            name="activity"
+            value="Snorkelling"
+          />
+          <label for="Snorkelling">Snorkelling</label><br />
+
+          <input type="checkbox" name="activity" value="Hiking" checked />
+          <label for="Hiking">Hiking</label><br />
+
+          <input type="checkbox" name="activity" value="Spa" />
+          <label for="Spa">Spa</label><br />
+        </fieldset>
+
+        <!-- Baby on Board - Radio-->
+        <p><b>Baby on Board?</b></p>
+        <input type="radio" name="onBoard" value="yes" />
+        <label>Yes</label>
+        <input type="radio" name="onBoard" value="no" checked />
+        <label>No</label>
+
+        <br /><br />
+        <!-- Special requests - textarea -->
+        <p><b>Speacial Requests</b></p>
+        <textarea
+          name="request"
+          cols="40"
+          rows="10"
+          placeholder="type your requests"
+        >
+        </textarea>
+      </fieldset>
+
+      <br /><br />
+      <!-- <input type="submit" />
+      <input type="reset" />
+      <input type="button" value="Button" /> -->
+
+      <button type="button">
+        <img src="../Multimedia/logo.png" width="30" height="30" />
+      </button>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
